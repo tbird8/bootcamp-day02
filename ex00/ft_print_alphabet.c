@@ -6,17 +6,14 @@
 /*   By: tbird <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/18 10:36:45 by tbird             #+#    #+#             */
-/*   Updated: 2020/06/18 11:57:01 by tbird            ###   ########.fr       */
+/*   Updated: 2020/06/19 10:41:58 by tbird            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************* */
 
 
+#include<unistd.h>
+   
+void ft_print_alphabet(void); 
 
-void  ft_print_alphabet(void);
-{
-    char c;
-    c = 'a';
-	while ('a'<='z')
-	ft_putchar(*c)
-	ft_putchar('\n')
+int ft_putchar;
 }
